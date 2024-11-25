@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo-in-nav, .logo-in-form{
+    width: 140px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.help-nav, a{
+    margin-left: auto;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #188fff;
+}
+
+main{
+    background-color: #f9f9fa;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+}
+
+.left-paragraph{
+    flex: 1; 
+    margin-right: 20px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 9rem;
+    max-width: 600px;
+    justify-content:center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 200px;
+}
+
+.form-yahoo {
+    flex: 0.5; 
+    display: flex;
+    justify-content: left; 
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    height: 35rem;
+    text-align: center;
+    padding: 30px;
+    min-width: 25rem; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-label{
+    font-size: 13px;
+    color: #484949;
+}
+
+
+.phone-no{
+    width: 76%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #188fff;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.napred{
+    width: 76%;
+    background-color: #188fff;
+    color: white;
+    height: 8%;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 17px;
+    
+}
+
+.create-account-button{
+    width: 76%;
+    background-color: white;
+    color: #188fff;
+    height: 8%;
+    border: 1px solid #188fff;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.forgot-username{
+    color: #188fff;
+}
+
+.ost-vp{
+    float: left;
+    
+}
+
+
+
+
+
+
+
